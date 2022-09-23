@@ -263,6 +263,6 @@ div.carousel {
 
 .prev:hover,
 .next:hover {
-  margin: 0;
+
   /* Pick a good background colour for your hover pseudoclass */
 }
