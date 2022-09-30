@@ -93,7 +93,7 @@ form {
   /* this will push other blocks out of the way */
 
   /* colors */
-  background-color: #ffe08a;
+  background-color: #f104f1;
   color: #4a4a4a;
 
   /* shapes */
@@ -135,7 +135,7 @@ form {
 }
 
 .right_section {
-  background-color: rgba(255, 224, 138, 0.7);
+  background-color: rgb(0, 255, 13);
   flex: 1 2 auto;
   margin: 1rem;
   align-items: center;
@@ -153,13 +153,13 @@ form {
 .footer {
   flex-shrink: 0;
   padding: 1rem;
-  background-color: rgba(0, 139, 139, 0.8);
+  background-color: rgb(8, 66, 16);
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 .footer a {
-  color: rgba(255, 224, 138, 1);
+  color: rgb(251, 255, 0);
   text-decoration: underline;
 }
 
@@ -177,7 +177,7 @@ form {
 }
 
 .subtitle {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 0, 0);
   margin: 0px;
   margin-bottom: 5px;
 }
