@@ -39,7 +39,7 @@ a {
   text-decoration: none;
 }
 
-h2 {
+h2, h3 {
   margin:0;
   padding:0;
   padding-bottom:1.5rem;
@@ -120,7 +120,6 @@ form {
   background-color: rgba(239, 239, 239, 0.40);
   border: 2px dashed;
   border-radius: 4px;
-
   width: fit-content;
   height:fit-content;
   padding: 1.5rem;
@@ -139,7 +138,9 @@ form {
   flex: 1 2 auto;
   margin: 1rem;
   align-items: center;
-  max-width: 450px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 /*
@@ -295,11 +296,23 @@ form label {
 }
 
 /* How To Write A Media Query For Small Screens */
-
+/* mobile screen*/
 @media only screen and (max-width: 736px){
     /* Rules in here will only apply when a screen is the correct size */
     /* check it out by using your developer tools to shrink your screen-size */
     .container {
-      background-color: rgba(204, 8, 162, 0.65);
+      background-color: rgb(245, 167, 0);
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
+}
+/* Desktop screen*/
+@media only screen and (min-width: 736px){
+  .container {
+    background-color: rgb(3, 217, 245);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
