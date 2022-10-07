@@ -1,3 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biniam's Lab 4 for INST377</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1>Biniam's Lab 4 for INST377</h1>
+      </header>
+      <div class="container">
+        <div class="left_section box">
+            <h3>Form Inputs</h3>
+          <form action="/api">
+            <div class="input_container box">
+                <label for="resto">Restaurant Name</label>
+                <input type="text" name="resto" id="resto" />
+                <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+        <div class="right_section box">
+          <h3>Local Restaurants</h3>
+          <div class="restaurant_list box">A list of local restaurants from an API</div>
+        </div>
+      </div>
+      <footer class="footer">
+        Github account: <a href= "https://github.com/bzemedku98/INST377-Lab-Work/tree/main/client/lab_1" target="_blank"> bzemedku98</a>
+      </footer>
+    </div>
+  </body>
+</html>
 <!-- Bring in your successful HTML/CSS from the Flexbox lab -->
 <!-- Your page will need a form in it with an 'action' to /api and a single text field with an id/name of "resto" -->
 <!-- If you open /routes/apiRoutes and go to line 38 you will find the server side answer to your request! -->
