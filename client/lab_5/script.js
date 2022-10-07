@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /*
   Hook this script to index.html
   by adding `<script src="script.js">` just before your closing `</body>` tag
