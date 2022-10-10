@@ -308,6 +308,16 @@ form label {
       justify-content: center;
       align-items: center;
     }
+
+    .right_section {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box {
+      width: 50%;     
+    }
+
 }
 /* Desktop screen*/
 @media only screen and (min-width: 736px){
