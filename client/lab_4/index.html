@@ -17,17 +17,17 @@
       <div class="container">
         <div class="left_section box">
             <h3>Form Inputs</h3>
-          <form action="/api">
-            <div class="input_container box">
-                <label for="resto">Restaurant Name</label>
-                <input type="text" name="resto" id="resto" />
-                <button type="submit">Submit</button>
-            </div>
+          <form action="/api" class="box">
+            <!--<div class="input_container box">-->
+              <label for="resto">Restaurant Name</label>
+              <input type="text" name="resto" id="resto" />
+              <button type="submit">Submit</button>
+            <!--</div>-->
           </form>
         </div>
         <div class="right_section box">
           <h3>Local Restaurants</h3>
-          <div class="restaurant_list box">A list of local restaurants from an API</div>
+          <div id="restaurant_list" class="box">A list of local restaurants from an API</div>
         </div>
       </div>
       <footer class="footer">

@@ -310,15 +310,16 @@ form label {
     }
 
     .right_section {
-      justify-content: center;
-      align-items: center;
+      justify-content: flex-start;
+      align-items: flex-start;
     }
 
     .box {
-      width: 50%;     
+      width: 85%;     
     }
 
 }
+
 /* Desktop screen*/
 @media only screen and (min-width: 736px){
   .container {
