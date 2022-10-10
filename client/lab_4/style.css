@@ -66,6 +66,7 @@ form {
 }
 
 .container {
+  background-color: rgb(3, 217, 245);
   margin: 0 20px;
   display: flex;
   justify-content: space-evenly;
@@ -320,12 +321,3 @@ form label {
 
 }
 
-/* Desktop screen*/
-@media only screen and (min-width: 736px){
-  .container {
-    background-color: rgb(3, 217, 245);
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-}
