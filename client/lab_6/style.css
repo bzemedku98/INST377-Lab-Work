@@ -101,6 +101,7 @@ form {
   font-size: 1.5rem;
   padding: 1.25rem;
   margin:0; /* removing the margin on h1 tags means the header pins to the top if we move */
+  border: 3px dashed;
 
 
   /* box-shadows are fancy */
@@ -156,6 +157,7 @@ form {
   background-color: rgb(8, 66, 16);
   font-size: 1.2rem;
   font-weight: 600;
+  border: 3px dashed;
 }
 
 .footer a {
