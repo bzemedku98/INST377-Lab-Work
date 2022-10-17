@@ -66,6 +66,7 @@
   }
   
   .container {
+    background-color: aqua;
     margin: 0 20px;
     display: flex;
     justify-content: space-evenly;
@@ -306,15 +307,15 @@
         justify-content: center;
         align-items: center;
       }
-  }
-  /* Desktop screen*/
-  @media only screen and (min-width: 736px){
-    .container {
-      background-color: rgb(3, 217, 245);
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
+  
+      .right_section {
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+  
+      .box {
+        width: 85%;     
+      }
   }
 /* CSS instructions for Lab 5 */
 /* Bring in your successful CSS from week 4 */
