@@ -20,7 +20,16 @@ function getRandomIntInclusive(min, max) {
 
 function injectHTML(list) {
   console.log('fired injectHTML');
-  const target = document.querySelector('#restaurant_list')
+  const target = document.querySelector('#restaurant_list');
+  target.innerHTML = '';
+
+  const listElement = document.createElement('ol');
+  target.appendChild(listElement);
+  list.forEach((item) => {
+    const newElement = document.createElement('li');
+    newElement.innerText = item.name;
+    listElement.appendChild(newElement);
+  });
   /*
   ## JS and HTML Injection
     There are a bunch of methods to inject text or HTML into a document using JS
