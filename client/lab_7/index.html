@@ -14,24 +14,29 @@
             <header class="header">
             <h1>Biniam's Lab 7 for INST377</h1>
             </header>
-            <div class="container">-->
+            <!--<div class="container">-->
                 <div class="left_section box">
                     <label for="resto">Restaurant Name</label>
-                <form action="/api">
-                    <input type="text" name="resto" id="resto" />
-                </form>
+                    <form action="/api">
+                        <input type="text" name="resto" id="resto" />
+                    </form>
                     <label for="resto">Food Type</label>
-                <form action="/api">
-                    <input type="text" name="resto" id="resto" />
-                    <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
-                    <button type="submit" id="get-resto">Submit</button>
-                </form>
+                    <form action="/api">
+                        <input type="text" name="resto" id="resto" />
+                    </form>
+                    <label for="resto">Veggie or Vegan?</h3>
+                    <form action="/api">
+                        <!--<input type="text" name="resto" id="resto" />-->
+                        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+                        <button type="submit" id="get-resto">Load List</button>
+                    </form>
+
                 </div>
                 <div class="right_section box">
                     <h3>Restaurant_list</h3>
                     <div class="box" id="restaurant_list">A list of local restaurants from an API</div>
                 </div>
-            </div>
+            <!--</div>-->
         </div>
         <script src="script.js"></script>
     </body>
