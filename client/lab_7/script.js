@@ -80,6 +80,7 @@ function filterList(list, filterInputValue) {
     if (!item.name) { return; }
     const lowerCaseName = item.name.toLowerCase();
     const lowerCaseQuery = filterInputValue.toLowerCase();
+    // eslint-disable-next-line consistent-return
     return lowerCaseName.includes(lowerCaseQuery);
   });
   return newArray;
