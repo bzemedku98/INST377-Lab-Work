@@ -127,9 +127,9 @@ async function mainEvent() {
   // Let's hide our load button not that we have some data to manipulate
   loadAnimation.classList.remove('lds-ellipsis');
   loadAnimation.classList.add('lds-ellipsis_hidden'); // Let's turn the submit button back on by setting to display as a block when we have data available
-  
+
   let currentList = [];
-  
+
   form.addEventListener('input', (event) => {
     console.log('input', event.target.value);
     const filteredList = filterList(currentList);
