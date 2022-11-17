@@ -47,6 +47,7 @@ function injectHTML(list) {
 function processRestaurants(list) {
   console.log('fired restaurants list');
   const range = [...Array(15).keys()];
+  // eslint-disable-next-line no-unused-vars
   const newArray = range.map((item) => {
     const index = getRandomIntInclusive(0, list.length);
     return list[index];
@@ -84,6 +85,15 @@ function filterList(list, filterInputValue) {
   return newArray;
 }
 
+function initMap() {
+  console.log('initMap');
+  const map = L.map('map').setView([38.9072, 77.0369], 13);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(map);
+  return map;
+}
 async function mainEvent() {
   /*
         ## Main Event
@@ -91,7 +101,7 @@ async function mainEvent() {
           When you're not working in a heavily-commented "learning" file, this also is more legible
           If you separate your work, when one piece is complete, you can save it and trust it
       */
-
+  const pageMap = initMap();
   // the async keyword means we can make API requests
   const form = document.querySelector('.main_form'); // get your main form so you can do JS with it
   const submit = document.querySelector('#get-resto'); // get a reference to your submit button

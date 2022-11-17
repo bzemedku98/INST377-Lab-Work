@@ -6,9 +6,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Biniam's Lab 8 for INST377</title>
-        <link rel="stylesheet" href="style.css"/>
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" 
         integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin=""/>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
     </head>
 
     <body>
@@ -29,7 +31,8 @@
                 </form>
               </div>
               <div class="right_section box">
-                <h3>Local Restaurants</h3>
+                <h2>Local Restaurant Map</h2>
+                <div id="map"></div>
                 <div class="box" id="restaurant_list">A list of local restaurants from an API</div>
               </div>
             </div>
@@ -39,7 +42,5 @@
           </div>
         <script src="script.js"></script>
         <script src="hints.js"></script>
-        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
-        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
     </body>
 </html>

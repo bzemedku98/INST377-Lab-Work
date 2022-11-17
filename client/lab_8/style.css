@@ -320,10 +320,15 @@
       }
   
   }
-  /* CSS instructions for Lab 5 */
-  /* Bring in your successful CSS from week 4 */
-  /* In your #map rule, set map to display:none; to temporarily hide your map box */
-  
+
+  /* MAP STYLES */
+  #map { 
+    display: block;
+    width: 400px;
+    height: 380px;
+    border: 2px dashed rgb(99,99,99);
+    margin-bottom: 1rem;
+  }
   /* 
       New code bonus: pure CSS data loading icon
       This comes from loading.io/css - it's nice to show that something is happening!
