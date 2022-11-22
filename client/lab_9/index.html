@@ -6,11 +6,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Biniam's Lab 9 for INST377</title>
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" 
-        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin=""/>
+        <!--<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" 
+        integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin=""/>-->
         <link rel="stylesheet" href="style.css"/>
-        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
-        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <!--<script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+        integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>-->
     </head>
 
     <body>
@@ -32,7 +33,10 @@
               </div>
               <div class="right_section box">
                 <h2>Local Restaurants Map</h2>
-                <div id="map"></div>
+                <!--<div id="map"></div>-->
+                <div class="chart_container">
+                  <canvas id="myChart"></canvas>
+                </div>
                 <div class="box" id="restaurant_list">A list of local restaurants from an API</div>
               </div>
             </div>
